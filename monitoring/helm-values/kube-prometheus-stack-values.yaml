@@ -11,7 +11,7 @@ grafana:
     annotations:
       nginx.ingress.kubernetes.io/rewrite-target: /
     hosts:
-      - grafana.YOUR_DOMAIN
+      - grafana.20.223.8.172
     path: /
     pathType: Prefix
 
@@ -25,7 +25,7 @@ prometheus:
     annotations:
       nginx.ingress.kubernetes.io/rewrite-target: /
     hosts:
-      - prometheus.YOUR_DOMAIN
+      - prometheus.20.223.8.172
     paths:
       - /
     pathType: Prefix
